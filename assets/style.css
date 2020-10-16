@@ -122,6 +122,14 @@ body{
   display: table;
   clear: both;
 }
+.hero_img{
+  width: 100%;
+  background-image: url(img/jumbotron.png);
+}
+.immagine_header{
+  width: 80%;
+  margin: auto;
+}
 .green_small{
   width: 1500px;
   height: 80px;
