@@ -181,9 +181,12 @@ body{
 /* fine header */
 
 /* inizio testata main */
-main{
+.testata_main{
   width: 1200px;
   margin: auto;
+  content: "";
+  display: table;
+  clear: both;
 }
 .img_cubo{
   width: 210px;
@@ -354,3 +357,30 @@ main{
 /* fine testata_main */
 
 /* inizio corpo main */
+.corpo_main{
+  width: 1500px;
+  margin: auto;
+  background-image: linear-gradient(to right, #00a9b8 0%, #00bba7 100%);
+}
+.container_margin{
+  width: 1200px;
+  margin: auto;
+}
+.container_margin h2{
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.container_margin p{
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 25px;
+}
