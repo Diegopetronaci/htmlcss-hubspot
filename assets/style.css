@@ -35,6 +35,7 @@ body{
 
 /* utlity */
 
+/* inizio header */
 .navbar_fixed{
   width: 1500px;
   /* height: 80px;
@@ -75,11 +76,13 @@ body{
 #search_logo{
   color: #00a4bd;
 }
-
 #stanghetta{
   margin-left: 20px;
   margin-right: 20px;
   border-right: 1px solid black;
+}
+.container{
+  width: 1500px;
 }
 .menubar_top{
   width: 80%;
@@ -116,7 +119,7 @@ body{
 .hero_img{
   width: 1500px;
   height: 613px;
-  background-color: #ededed;
+  background-color: #fff2ee;
   margin: auto;
   content: "";
   display: table;
@@ -125,15 +128,71 @@ body{
 .hero_img{
   width: 100%;
   background-image: url(img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-position: 150% 0%;
 }
 .immagine_header{
   width: 80%;
   margin: auto;
 }
+.text_header{
+  width: 600px;
+  height: 613px;
+  position: relative;
+}
+.text_header h1{
+  font-size: 50px;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.text_header p{
+  font-size: 18px;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+.grande{
+  padding: 30px;
+}
+.text_header p:last-child{
+  padding-top: 70px;
+  font-size: 15px;
+}
 .green_small{
   width: 1500px;
   height: 80px;
+  margin: auto;
   background-color: #afebe4;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+}
+/* fine header */
+
+/* inizio main */
+main{
+  width: 80%;
+  margin: auto;
+}
+.img_cubo{
+  width: 210px;
+  height: 200px;
+  background-size: cover;
+  background-image: url(img/cubo.svg);
+  margin: auto;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+.top_main{
+  width: 63%;
+  margin: auto;
+}
+.top_main h2{
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+}
+.top_main p{
+  text-align: center;
+  line-height: 25px;
 }
