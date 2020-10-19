@@ -536,3 +536,38 @@ footer{
   height: 700px;
   background: #32495b;
 }
+.footer_container{
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+  content: "";
+  display: table;
+  clear: both;
+}
+.lista_footer{
+  float: left;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.lista_footer div:first-child{
+  padding-bottom: 15px;
+  font-weight: 900;
+}
+.lista_footer div{
+  color: white;
+  line-height: 35px;
+}
+.loghi_social{
+  width: 1200px;
+  margin: auto;
+}
+.btn_bianco a{
+  color: black;
+  text-decoration: none;
+  float: right;
+  border-radius: 10px;
+  margin-top: 30px;
+  margin-right: 110px;
+  background: white;
+  padding: 10px;
+}
