@@ -7,6 +7,7 @@
 body{
   width: 1500px;
   margin: auto;
+  background-color: #f4f9fd;
 }
 
 /* utlity */
@@ -26,6 +27,16 @@ body{
 .btn_speciale{
   color: #fe775a;
   border: 1px solid #fe775a;
+  border-radius: 5px;
+}
+
+.col_3{
+  float: left;
+  width: 30.50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 3px solid Lightgrey;
   border-radius: 5px;
 }
 /* :after{
@@ -152,6 +163,8 @@ body{
 .grande{
   padding: 30px;
   text-decoration: none;
+  text-align: center;
+  margin: 15px;
 }
 .text_header p:last-child{
   padding-top: 70px;
@@ -167,7 +180,7 @@ body{
 }
 /* fine header */
 
-/* inizio main */
+/* inizio testata main */
 main{
   width: 1200px;
   margin: auto;
@@ -200,6 +213,7 @@ main{
   width: 80%;
   height: 300px;
   margin: auto;
+  background-color: white;
   border: 3px solid Lightgrey;
   border-radius: 5px;
 }
@@ -225,6 +239,10 @@ main{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+.piccolo a{
+  color: white;
+  text-decoration: none;
 }
 .right_learn_more{
   float: left;
@@ -260,3 +278,79 @@ main{
 .spunte i{
   color: #fe775a
 }
+.row{
+  width: 80%;
+  margin: auto;
+}
+.col_sinistra{
+  margin-right: 20px;
+}
+.img{
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.imbuto{
+  width: 70px;
+  height: 100px;
+  background-image: url(img/imbuto.svg);
+  background-repeat: no-repeat;
+}
+.strumenti{
+  width: 120px;
+  height: 100px;
+  background-image: url(img/strumenti.svg);
+  background-repeat: no-repeat;
+}
+.social{
+  width: 90px;
+  height: 100px;
+  background-image: url(img/social.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col_sinistra h3, .col_centro h3, .col_destra h3{
+  font-size: 25px;
+  text-align: center;
+}
+.col_sinistra p, .col_centro p, .col_destra p{
+  padding: 16px;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.col_sinistra hr, .col_centro hr, .col_destra hr{
+  width: 250px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.col_sinistra h4, .col_centro h4, .col_destra h4{
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 25px;
+}
+.spunte i{
+  margin-left: 15px;
+}
+.medio{
+  margin: 70px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.medio a{
+  color: white;
+  text-decoration: none;
+}
+.col_centro{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.col_destra{
+  margin-left: 20px;
+}
+/* fine testata_main */
+
+/* inizio corpo main */
