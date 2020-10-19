@@ -444,3 +444,21 @@ body{
   border-top: 1px solid white;
 }
 /* fine box */
+.piedi_main{
+  width: 1200px;
+  margin: auto;
+  height: 500px;
+  background: red;
+}
+.top_piedi_main{
+  width: 1000px;
+  margin: auto;
+  background: green;
+  height: 300px;
+}
+.bottom_piedi_main{
+  width: 1200px;
+  margin: auto;
+  background: yellow;
+  height: 300px;
+}
