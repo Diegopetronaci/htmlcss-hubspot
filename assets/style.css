@@ -164,7 +164,7 @@ body{
 .text_header p{
   font-size: 18px;
   line-height: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 75px;
 }
 .grande{
   padding: 30px;
@@ -371,6 +371,12 @@ body{
   display: table;
   clear: both;
 }
+.spaziatura_green{
+  width: 1500px;
+  height: 500px;
+  margin: auto;
+  background-image: linear-gradient(to right, #00a9b8 0%, #00bba7 100%);
+}
 .container_margin{
   width: 1200px;
   margin: auto;
@@ -447,18 +453,86 @@ body{
 .piedi_main{
   width: 1200px;
   margin: auto;
+  padding-top: 80px;
   height: 500px;
-  background: red;
+  content: "";
+  display: table;
+  clear: both;
 }
 .top_piedi_main{
   width: 1000px;
   margin: auto;
-  background: green;
-  height: 300px;
+  height: 200px;
+}
+.number_customers{
+  float: left;
+  width: 20%;
+}
+.number_customers h2{
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+.number_customers p{
+  line-height: 25px;
+}
+.marche_auto{
+  float: right;
+  width: 70%;
+  height: 100px;
+}
+.marche{
+  width: 110px;
+  height: 50px;
+  margin: 30px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+}
+.marca_1{
+  background-image: url(img/1.webp);
+}
+.marca_2{
+  background-image: url(img/2.webp);
+}
+.marca_3{
+  background-image: url(img/3.webp);
+}
+.marca_4{
+  background-image: url(img/4.webp);
+}
+.marca_5{
+  background-image: url(img/5.webp);
+}
+.marca_6{
+  background-image: url(img/6.webp);
+}
+.marca_7{
+  background-image: url(img/7.webp);
 }
 .bottom_piedi_main{
   width: 1200px;
   margin: auto;
-  background: yellow;
-  height: 300px;
+  height: 500px;
+}
+.bottom_piedi_main > .text_header{
+  width: 500px;
+  float: left;
+}
+.bottom_piedi_main > .text_header > h1{
+  font-size: 35px;
+}
+.img_donna{
+  float: right;
+  width: 400px;
+  height: 400px;
+  margin-top: 60px;
+  background-position: 100% 100%;
+  background-image: url(img/woman.webp);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer{
+  width: 1500px;
+  height: 700px;
+  background: #32495b;
 }
