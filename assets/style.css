@@ -39,6 +39,12 @@ body{
   border: 3px solid Lightgrey;
   border-radius: 5px;
 }
+
+.box, .col_4{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
 /* :after{
   content: "";
   display: table;
@@ -361,6 +367,9 @@ body{
   width: 1500px;
   margin: auto;
   background-image: linear-gradient(to right, #00a9b8 0%, #00bba7 100%);
+  content: "";
+  display: table;
+  clear: both;
 }
 .container_margin{
   width: 1200px;
@@ -384,3 +393,54 @@ body{
   padding-right: 70px;
   padding-bottom: 25px;
 }
+.row_1, .row_2{
+  width: 1000px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.logo i{
+  padding-top: 15px;
+  font-size: 30px;
+  color: white;
+}
+.numero{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.paroline{
+  color: white;
+  font-size: 13px;
+  padding-bottom: 30px;
+}
+/* inizio box */
+.tl{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.tmiddle{
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.tr{
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.btl{
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+.bmiddle{
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+.br{
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+/* fine box */
