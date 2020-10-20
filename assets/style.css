@@ -56,8 +56,8 @@ body{
 /* inizio header */
 .navbar_fixed{
   width: 1500px;
-  /* height: 80px;
-  background-color: #ededed; */
+  /* height: 80px;*/
+  background-color: #ededed;
   border-bottom: 1px solid black;
   content: "";
   display: table;
@@ -533,21 +533,21 @@ body{
 }
 footer{
   width: 1500px;
-  height: 700px;
   background: #32495b;
+  content: "";
+  display: table;
+  clear: both;
 }
 .footer_container{
   width: 1200px;
   margin: auto;
   padding-top: 50px;
-  content: "";
-  display: table;
-  clear: both;
 }
 .lista_footer{
   float: left;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-transform: capitalize;
 }
 .lista_footer div:first-child{
   padding-bottom: 15px;
@@ -555,7 +555,7 @@ footer{
 }
 .lista_footer div{
   color: white;
-  line-height: 35px;
+  line-height: 40px;
 }
 .loghi_social{
   width: 1200px;
@@ -568,7 +568,7 @@ footer{
   float: right;
   border-radius: 10px;
   margin-top: 30px;
-  margin-right: 260px;
+  margin-right: 230px;
   background: white;
   padding: 10px;
   position: relative;
@@ -580,7 +580,7 @@ footer{
   display: table;
   clear: both;
   position: relative;
-  left: 747px;
+  left: 775px;
   line-height: 30px;
   padding: 20px;
 }
